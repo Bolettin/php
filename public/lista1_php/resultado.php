@@ -1,5 +1,6 @@
 <?php
 $nome = $_POST['nome'];
-$nome = $_POST['nome'];
-echo "<h1>Olá, $nome !< /h1>";
+$email = $_POST['email'];
+echo "<h1>Nome: $nome</h1>";
+echo "<h1>E-mail:$email</h1>";
 ?>
