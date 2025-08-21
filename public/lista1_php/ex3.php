@@ -1,6 +1,6 @@
 <?php
 
-$imagem = "imagem.png";
+$imagem = "imagem.jpg";
 
 
 ?>
@@ -13,9 +13,6 @@ $imagem = "imagem.png";
     <title>Document</title>
 </head>
 <body>
-    
-    <img>  src=" <?php echo $imagem ?>"  alt="Imagem dinâmica </img>
-    <h1>Idade: <?php echo $idade ?> </h1>
-    <h1>Cidade: <?php echo $cidade ?> </h1>
+  <img src="<?php echo $imagem ?>" alt="">
 </body>
 </html>
