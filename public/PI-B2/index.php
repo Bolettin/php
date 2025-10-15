@@ -2,7 +2,7 @@
 require_once 'dados.php';
 
 function renderizar_card_membro($membro) {
-    // Define ícone conforme o cargo
+    
     $icones = [
         'Product Manager' => 'briefcase',
         'Financial Analyst' => 'bar-chart',
